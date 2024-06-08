@@ -7,6 +7,7 @@ import img02 from '../../assets/images/project2.png';
 import img03 from '../../assets/images/project03.png';
 import img04 from '../../assets/images/project04.png';
 import img05 from '../../assets/images/project05.png';
+import img06 from '../../assets/images/project06.png';
 
 const Projects = () => {
   return (
@@ -36,7 +37,13 @@ const Projects = () => {
           alt='https://github.com/MdFaizu18/BuggyApp'
           alt2='https://buggy-app.onrender.com/'
         />
-    
+        <ProjectsCard
+          title="Web Spyders Community"
+          des="A community-driven platform built with React to provide information, resources, and support for web developers. It fosters collaboration and learning through forums, tutorials, and project showcases."
+          src={img06}
+          alt='https://github.com/MdFaizu18/webspyderscommunity'
+          alt2='https://webspyderscommunity-xofl.onrender.com/'
+        />
      
         <ProjectsCard
           title="MIT CAMPUS VOICES"
@@ -54,21 +61,14 @@ const Projects = () => {
           alt2='https://jobify-5ur5.onrender.com/'
         />
         <ProjectsCard
-          title="Web Spyders Demo"
+          title="Apple ProductApp Demo"
           des=" A Bootstrap demo app showcases responsive and visually appealing web design using the Bootstrap framework, demonstrating its grid system, components, and styling features."
           src={img03}
           alt='https://github.com/MdFaizu18/Web_Spyders_App'
           alt2='https://mdfaizu18.github.io/Web_Spyders_App/'
         />
       
-       
-        {/*
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        /> */}
+
       </div>
     </section>
   );
