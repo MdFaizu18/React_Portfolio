@@ -1,9 +1,9 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+// import { projectOne, projectTwo, projectThree } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import img01 from '../../assets/images/project01.png';
-import img02 from '../../assets/images/project2.png';
+import img02 from '../../assets/images/project02.png';
 import img03 from '../../assets/images/project03.png';
 import img04 from '../../assets/images/project04.png';
 import img05 from '../../assets/images/project05.png';
@@ -31,11 +31,11 @@ const Projects = () => {
           alt2='https://hotnews-5xep.onrender.com/'
         />
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE - (BUGGY)"
-          des=" A social media clone app replicates popular platforms, fostering connection through user profiles, posts, likes, and comments, mimicking the original social experience."
-          src={img04}
-          alt='https://github.com/MdFaizu18/BuggyApp'
-          alt2='https://buggy-app.onrender.com/'
+          title="MIT CAMPUS VOICES"
+          des=" A college feedback app allows students to provide insights on courses, instructors, and facilities, fostering continuous improvement and enhancing overall educational experiences."
+          src={img02}
+          alt='https://github.com/MdFaizu18/campus_voices'
+          alt2='https://campus-voices-3l2m.onrender.com/'
         />
         <ProjectsCard
           title="Web Spyders Community"
@@ -44,14 +44,16 @@ const Projects = () => {
           alt='https://github.com/MdFaizu18/webspyderscommunity'
           alt2='https://webspyderscommunity-xofl.onrender.com/'
         />
-     
+
         <ProjectsCard
-          title="MIT CAMPUS VOICES"
-          des=" A college feedback app allows students to provide insights on courses, instructors, and facilities, fostering continuous improvement and enhancing overall educational experiences."
-          src={img02}
-          alt='https://github.com/MdFaizu18/Campus_Voices_'
-          alt2='https://temp-campus-voices.onrender.com/'
+          title="SOCIAL MEDIA CLONE - (BUGGY)"
+          des=" A social media clone app replicates popular platforms, fostering connection through user profiles, posts, likes, and comments, mimicking the original social experience."
+          src={img04}
+          alt='https://github.com/MdFaizu18/BuggyApp'
+          alt2='https://buggy-app.onrender.com/'
         />
+     
+  
         <ProjectsCard 
         className='projectimg-one'
           title="JOB FETCHING APP"
