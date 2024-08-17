@@ -6,7 +6,8 @@ import img01 from '../../assets/images/project01.png';
 import img02 from '../../assets/images/project02.png';
 import img03 from '../../assets/images/project03.png';
 import img04 from '../../assets/images/project04.png';
-import img05 from '../../assets/images/project05.png';
+// import img05 from '../../assets/images/project05.png';
+import img05 from '../../assets/images/bikeservices.png'
 import img06 from '../../assets/images/project06.png';
 
 const Projects = () => {
@@ -23,12 +24,12 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-14">
         <ProjectsCard
-          title="HotNews - D2D Feeds"
-          des=" HotNews-feeding website built with React delivers real-time updates, engaging UI, seamless navigation, and personalized content, enhancing the user's news consumption experience."
+          title="Bike Services App"
+          des=" A bike services app streamlines the bike service process, providing users with curated listings, personalized recommendations, and efficient application management for bike services."
         
           src={img05}
-          alt='https://github.com/MdFaizu18/Hot_News'
-          alt2='https://hotnews-5xep.onrender.com/'
+          alt='https://github.com/MdFaizu18/BikeService'
+          alt2='https://bike-services-5fd9.onrender.com/'
         />
         <ProjectsCard
           title="MIT CAMPUS VOICES"
