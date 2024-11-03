@@ -35,8 +35,8 @@ const Projects = () => {
           title="MIT CAMPUS VOICES"
           des=" A college feedback app allows students to provide insights on courses, instructors, and facilities, fostering continuous improvement and enhancing overall educational experiences."
           src={img02}
-          alt='https://github.com/MdFaizu18/campus_voices'
-          alt2='https://campus-voices-3l2m.onrender.com/'
+          alt='https://github.com/MdFaizu18/mern_campusvoices'
+          alt2='https://campusvoices.vercel.app/'
         />
         <ProjectsCard
           title="Web Spyders Community"
