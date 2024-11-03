@@ -8,7 +8,7 @@ import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 
-
+// importing app 
 function App() {
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText px-4">

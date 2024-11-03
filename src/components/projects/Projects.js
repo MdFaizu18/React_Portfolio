@@ -38,6 +38,7 @@ const Projects = () => {
           alt='https://github.com/MdFaizu18/mern_campusvoices'
           alt2='https://campusvoices.vercel.app/'
         />
+        {/* added campus voices  */}
         <ProjectsCard
           title="Web Spyders Community"
           des="A community-driven platform built with React to provide information, resources, and support for web developers. It fosters collaboration and learning through forums, tutorials, and project showcases."
